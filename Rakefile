@@ -11,7 +11,7 @@ spec = Gem::Specification.new do |s|
     s.summary   =   "A simple gem for using Git in Ruby code."
     s.files     =   FileList['lib/**/*'].to_a
     s.require_path  =   "lib"
-    print()
+    print("Hello world")
 end
 
 Rake::GemPackageTask.new(spec) do |pkg|
